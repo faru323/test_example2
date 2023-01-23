@@ -1,0 +1,31 @@
+.navb{
+    width: 100%;
+    height: 120px;
+    background-color: #fee2b3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .navb__left{
+        font-weight: 900;
+        font-size: xx-large;
+    
+    }
+    .navb__right{
+        font-size: large;
+        display: flex;
+        column-gap: 40px;
+        ul{
+
+            list-style-type: none;
+            .navLi{
+                display: inline;
+                color: rgb(0, 0, 0) !important;
+                text-decoration: none;
+                list-style: none;
+                margin-left: 30px;
+            }
+        }
+      
+    }
+}
+

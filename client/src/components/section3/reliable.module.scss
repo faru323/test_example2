@@ -1,0 +1,36 @@
+
+.main{
+margin-top: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 100px;
+    .container{
+       display: flex; column-gap: 20px;
+        width: 50%;
+        .image{
+
+            width: 350px;
+            height: 300px;
+            object-fit: contain;
+        }
+        .text{
+            margin-left: 85px;
+            .title{
+
+                font-size: xx-large;
+                margin-bottom: 20px;
+            }
+            .lorem{
+                margin-bottom: 15px;
+            }
+            .button{
+                padding: 12px 17px;
+                background-color: #fee2b3;
+                border: none;
+            }
+        }
+    }
+    
+
+}
